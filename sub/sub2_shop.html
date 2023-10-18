@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1500px">
+    <title>잇츠야미</title>
+    <!-- favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/common/favicon.png">
+    <!-- webfont -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Grandiflora+One&family=Jua&display=swap" rel="stylesheet">
+    <!-- <script type="module" src="https://ryj9d86xjh.execute-api.ap-northeast-2.amazonaws.com/v1/api/fontstream/djs/?sid=gAAAAABk-YjYDx2WP-goXeIDALa0HrHHBgdYqYcDzdhVdIdArwbexKHcH3qtPWT096ThEEL2NLNDcEWR4ke0nYOi1Ua7wRnW8yC3GPqm-XnMQ0XbveSgrnXgnb3GOO2fZzeX6GktzTD80_FIh_eYesd_NjBAGyA59bgs35j4um6QW-EQ0p2u96OkHo6nwmrkR1aiDXzz3xZNS5ZZTXR98LJE4LF17SOJpFTh0MkUH2zZTR6k_QWVHkJ2_jPWIjR8ZDn37TwAhr2A" charset="utf-8"></script> -->
+    <style>
+        @font-face {
+            font-family: 'HakgyoansimWoojuR';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/HakgyoansimWoojuR.woff2') format('woff2');
+            font-weight: normal;
+            font-style: normal;
+        }
+    </style>
+    <!-- css -->
+    <link rel="stylesheet" href="../css/sub2_shop_style.css">
+    <!-- common -->
+    <link rel="stylesheet" href="../css/common/swiper-bundle.min.css">
+    <link rel="stylesheet" href="../css/common/unpkg.com_aos@2.3.1_dist_aos.css">
+    <link rel="stylesheet" href="../css/common/animation.css">
+</head>
+
+<body>
+    <div id="wrap">
+        <!-- header -->
+        <div id="header">
+            <div class="inner_header">
+                <h1 class="logo">
+                    <a href="../index.html"><img src="../images/common/logo.png" alt="logo"></a>
+                </h1>
+                <ul class="gnb">
+                    <li><a href="../index.html">HOME</a></li>
+                    <li><a href="./sub1_brand.html">BRAND</a></li>
+                    <li><a href="./sub2_shop.html">SHOP</a></li>
+                    <li><a href="./sub3_event.html">EVENT</a></li>
+                    <li><a href="./sub4_notice.html">NOTICE</a></li>
+                </ul>
+                <ul class="link">
+                    <li><a href="javascript:return false;">로그인</a></li>
+                    <li><a href="javascript:return false;">장바구니</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- top -->
+        <div id="top">
+            <div id="main_banner">
+                <div class="inner_main_banner">
+                    <div class="main_baaner_text">
+                    </div>
+                </div>
+                <div id="bg_circle">
+                    <div id="bestseller">
+                        <h2 class="list_title">Bestseller</h2>
+                        <ul class="bestseller_list">
+                            <li class="default aos-init" data-aos="fade-up" data-aos-duration="3000"><img
+                                    src="../images/sub2_shop/bestseller_01.png" alt="bestseller_01"></li>
+                            <li class="default aos-init" data-aos="fade-up" data-aos-duration="1000"><img
+                                    src="../images/sub2_shop/bestseller_02.png" alt="bestseller_02"></li>
+                            <li class="default aos-init" data-aos="fade-up" data-aos-duration="3000"><img
+                                    src="../images/sub2_shop/bestseller_03.png" alt="bestseller_03"></li>
+                        </ul>
+                    </div>
+                    <div id="bg_ye"></div>
+                </div>
+            </div>
+        </div> <!-- top_E-->
+
+        <!-- specialevent -->
+        <div class="spe_top_box">
+            <div id="specialevent">
+                <h2 class="list_title">Special Event</h2>
+                <div class="inner_specialevent">
+                    <div class="text_box">
+                        <p><span style="font-size: 28px;">오늘 1시까지 주문완료하면,</span></p>
+                        <h2>다음날 새벽 7시 전에 도착!</h2>
+                        <div class="bg_box"></div>
+                        <p><span style="font-size: 20px;">지금 주문하고 신선한 제품을 받아보세요!</span></p>
+                        <a href="javascript:return false;" class="sub_link ye">발급받기</a>
+                    </div>
+                    <div class="top_img default aos-init" data-aos="zoom-in" data-aos-duration="1000">
+                        <div class="top_img">
+                            <img src="../images/sub2_shop/moon.png" alt="moon">
+                        </div>
+                    </div>
+                    <div class="default aos-init" data-aos="zoom-in" data-aos-duration="1000">
+                        <div class="deliverycar">
+                            <img src="../images/sub2_shop/deliverycar.png" alt="deliverycar">
+                        </div>
+                        <div class="wheel_1">
+                            <img src="../images/sub2_shop/wheel.png" alt="wheel">
+                        </div>
+                        <div class="wheel_2">
+                            <img src="../images/sub2_shop/wheel.png" alt="wheel">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="shop">
+            <!-- section_1 -->
+            <div class="section">
+                <div class="qick_menu">
+                    <ul class="section_1">
+                        <li class="mealkit"><a href="javascript:return false;" class="on">간편 밀키트</a></li>
+                        <li class="noodle"><a href="javascript:return false;">간단 면요리</a></li>
+                        <li class="rice"><a href="javascript:return false;">든든 도시락</a></li>
+                    </ul>
+                </div>
+
+                <div id="best_menu">
+                    <div class="lnb">
+                        <img src="../images/sub2_shop/bestmenu_01.png" alt="best_01">
+                    </div>
+                    <div class="lnb_b"></div>
+                    <a href="javascript:return false;">
+                        <div class="rnb">
+                            <img src="../images/sub2_shop/best_01.png" alt="best_01">
+                        </div>
+                        <div class="rnb_cover">
+                            <div class="rnb_text">
+                                <div class="menu_info">
+                                    <h3>얼큰 해물탕</h3>
+                                    <p>신선한 해산물과 얼큰하고 시원한 국물의 조화...</p>
+                                </div>
+                                <div class="best_price">
+                                    <p>11,500원<span style="color: #9B9B9B; font-size: 26px;"> (250g)</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="bst_qick_btn">
+                            <li>
+                                <a href="javascript:return false;">
+                                    <img src="../images/icon/icon_heart_wh.png" alt="icon_heart_wh">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:return false;">
+                                    <img src="../images/icon/icon_basket_wh.png" alt="icon_basket_wh">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:return false;">
+                                    <img src="../images/icon/icon_buy_wh.png" alt="icon_buy_wh">
+                                </a>
+                            </li>
+                        </ul>
+                    </a>
+                </div>
+
+                <ul class="menu_list">
+                    <li>
+                        <div class="menu_img">
+                            <img src="../images/sub2_shop/tteokbokki.png" alt="tteokbokki">
+                        </div>
+                        <div class="line"></div>
+                        <div class="menu_text">
+                            <p class="menu_title">매콤 떡볶이</p>
+                            <p class="price">8,500원</p>
+                            <p class="menu_inner_text">
+                                말랑쫀득 밀떡과 100%멸치육수로 우려낸
+                                <br>매콤달콤한 소스의 떡볶이
+                            </p>
+                            <ul class="qick_btn">
+                                <li><a href="javascript:return false;">
+                                        <img src="../images/icon/icon_heart_small_2.png" alt="icon_heart_small_2">
+                                    </a></li>
+                                <li><a href="javascript:return false;">
+                                        <img src="../images/icon/icon_basket_2_small_2.png" alt="icon_basket_2_small_2">
+                                    </a></li>
+                                <li><a href="javascript:return false;">
+                                        <img src="../images/icon/icon_buy_2.png" alt="icon_buy_2">
+                                    </a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="menu_img">
+                            <img src="../images/sub2_shop/salad.png" alt="salad">
+                        </div>
+                        <div class="line"></div>
+                        <div class="menu_text">
+                            <p class="menu_title">닭가슴살 샐러드</p>
+                            <p class="price">7,300원</p>
+                            <p class="menu_inner_text">
+                                촉촉한 국내산 닭가슴살과 신선한
+                                <br>아보카도의 만남
+                            </p>
+                            <ul class="qick_btn">
+                                <li><a href="javascript:return false;">
+                                        <img src="../images/icon/icon_heart_small_2.png" alt="icon_heart_small_2">
+                                    </a></li>
+                                <li><a href="javascript:return false;">
+                                        <img src="../images/icon/icon_basket_2_small_2.png" alt="icon_basket_2_small_2">
+                                    </a></li>
+                                <li><a href="javascript:return false;">
+                                        <img src="../images/icon/icon_buy_2.png" alt="icon_buy_2">
+                                    </a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="menu_img">
+                            <img src="../images/sub2_shop/dalggalbi.png" alt="dalggalbi">
+                        </div>
+                        <div class="line"></div>
+                        <div class="menu_text">
+                            <p class="menu_title">춘천 닭갈비</p>
+                            <p class="price">10,900원</p>
+                            <p class="menu_inner_text">
+                                촉촉한 국내산 100% 닭다리살과 신선한
+                                <br>채소로 만든 춘천닭갈비!
+                            </p>
+                            <ul class="qick_btn">
+                                <li><a href="javascript:return false;">
+                                        <img src="../images/icon/icon_heart_small_2.png" alt="icon_heart_small_2">
+                                    </a></li>
+                                <li><a href="javascript:return false;">
+                                        <img src="../images/icon/icon_basket_2_small_2.png" alt="icon_basket_2_small_2">
+                                    </a></li>
+                                <li><a href="javascript:return false;">
+                                        <img src="../images/icon/icon_buy_2.png" alt="icon_buy_2">
+                                    </a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <!--section_2-->
+            <div class="section part_2">
+                <div class="qick_menu">
+                    <ul class="section_2">
+                        <li class="mealkit"><a href="javascript:return false;">간편 밀키트</a></li>
+                        <li class="noodle"><a href="javascript:return false;" class="on">간단 면요리</a></li>
+                        <li class="rice"><a href="javascript:return false;">든든 도시락</a></li>
+                    </ul>
+                </div>
+
+                <div id="best_menu">
+                    <div class="lnb">
+                        <img src="../images/sub2_shop/bestmenu_02.png" alt="bestmenu_02">
+                    </div>
+                    <div class="lnb_b"></div>
+                    <a href="javascript:return false;">
+                        <div class="rnb">
+                            <img src="../images/sub2_shop/best_02.png" alt="best_02">
+                        </div>
+                        <div class="rnb_cover">
+                            <div class="rnb_text">
+                                <div class="menu_info">
+                                    <h3>바질 토마토 파스타</h3>
+                                    <p>바질의 향긋한 풍미를 가득 담아낸 페스토 소스... </p>
+                                </div>
+                                <div class="best_price">
+                                    <p>10,200원<span style="color: #9B9B9B; font-size: 26px;"> (250g)</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="bst_qick_btn">
+                            <li>
+                                <a href="javascript:return false;">
+                                    <img src="../images/icon/icon_heart_wh.png" alt="icon_heart_wh">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:return false;">
+                                    <img src="../images/icon/icon_basket_wh.png" alt="icon_basket_wh">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:return false;">
+                                    <img src="../images/icon/icon_buy_wh.png" alt="icon_buy_wh">
+                                </a>
+                            </li>
+                        </ul>
+                    </a>
+                </div>
+
+                <ul class="menu_list">
+                    <li>
+                        <div class="menu_img part_noodle">
+                            <img src="../images/sub2_shop/sweat_pumkin.png" alt="sweat_pumkin">
+                        </div>
+                        <div class="line"></div>
+                        <div class="menu_text">
+                            <p class="menu_title">단호박 카레 우동</p>
+                            <p class="price">8,500원</p>
+                            <p class="menu_inner_text">
+                                말랑쫀득 밀떡과 100%멸치육수로 우려낸
+                                <br>매콤달콤한 소스의 떡볶이
+                            </p>
+                            <ul class="qick_btn">
+                                <li><a href="javascript:return false;">
+                                        <img src="../images/icon/icon_heart_small_2.png" alt="icon_heart_small_2">
+                                    </a></li>
+                                <li><a href="javascript:return false;">
+                                        <img src="../images/icon/icon_basket_2_small_2.png" alt="icon_basket_2_small_2">
+                                    </a></li>
+                                <li><a href="javascript:return false;">
+                                        <img src="../images/icon/icon_buy_2.png" alt="icon_buy_2">
+                                    </a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="menu_img part_noodle">
+                            <img src="../images/sub2_shop/bacon_rose.png" alt="bacon_rose">
+                        </div>
+                        <div class="line"></div>
+                        <div class="menu_text">
+                            <p class="menu_title">베이컨 로제 파스타</p>
+                            <p class="price">7,300원</p>
+                            <p class="menu_inner_text">
+                                촉촉한 국내산 닭가슴살과 신선한
+                                <br>아보카도의 만남
+                            </p>
+                            <ul class="qick_btn">
+                                <li><a href="javascript:return false;">
+                                        <img src="../images/icon/icon_heart_small_2.png" alt="icon_heart_small_2">
+                                    </a></li>
+                                <li><a href="javascript:return false;">
+                                        <img src="../images/icon/icon_basket_2_small_2.png" alt="icon_basket_2_small_2">
+                                    </a></li>
+                                <li><a href="javascript:return false;">
+                                        <img src="../images/icon/icon_buy_2.png" alt="icon_buy_2">
+                                    </a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="menu_img part_noodle">
+                            <img src="../images/sub2_shop/kalguksu.png" alt="kalguksu">
+                        </div>
+                        <div class="line"></div>
+                        <div class="menu_text">
+                            <p class="menu_title">해물 칼국수</p>
+                            <p class="price">10,900원</p>
+                            <p class="menu_inner_text">
+                                촉촉한 국내산 100% 닭다리살과 신선한
+                                <br>채소로 만든 춘천닭갈비!
+                            </p>
+                            <ul class="qick_btn">
+                                <li><a href="javascript:return false;">
+                                        <img src="../images/icon/icon_heart_small_2.png" alt="icon_heart_small_2">
+                                    </a></li>
+                                <li><a href="javascript:return false;">
+                                        <img src="../images/icon/icon_basket_2_small_2.png" alt="icon_basket_2_small_2">
+                                    </a></li>
+                                <li><a href="javascript:return false;">
+                                        <img src="../images/icon/icon_buy_2.png" alt="icon_buy_2">
+                                    </a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <!--section_3-->
+            <div class="section part_3">
+                <div class="qick_menu">
+                    <ul class="section_3">
+                        <li class="mealkit"><a href="javascript:return false;">간편 밀키트</a></li>
+                        <li class="noodle"><a href="javascript:return false;">간단 면요리</a></li>
+                        <li class="rice"><a href="javascript:return false;" class="on">든든 도시락</a></li>
+                    </ul>
+                </div>
+
+                <div id="best_menu">
+                    <div class="lnb">
+                        <img src="../images/sub2_shop/bestmenu_03.png" alt="bestmenu_03">
+                    </div>
+                    <div class="lnb_b"></div>
+                    <a href="javascript:return false;">
+                        <div class="rnb">
+                            <img src="../images/sub2_shop/best_03.png" alt="best_03">
+                        </div>
+                        <div class="rnb_cover">
+                            <div class="rnb_text">
+                                <div class="menu_info">
+                                    <h3>통새우 볶음밥</h3>
+                                    <p>고슬고슬한 볶음밥에 통통한 새우가 가득... </p>
+                                </div>
+                                <div class="best_price">
+                                    <p>7,300원<span style="color: #9B9B9B; font-size: 26px;"> (250g)</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="bst_qick_btn">
+                            <li>
+                                <a href="javascript:return false;">
+                                    <img src="../images/icon/icon_heart_wh.png" alt="icon_heart_wh">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:return false;">
+                                    <img src="../images/icon/icon_basket_wh.png" alt="icon_basket_wh">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:return false;">
+                                    <img src="../images/icon/icon_buy_wh.png" alt="icon_buy_wh">
+                                </a>
+                            </li>
+                        </ul>
+                    </a>
+                </div>
+
+                <ul class="menu_list">
+                    <li>
+                        <div class="menu_img part_rice">
+                            <img src="../images/sub2_shop/curry.png" alt="curry">
+                        </div>
+                        <div class="line"></div>
+                        <div class="menu_text">
+                            <p class="menu_title">단호박 카레 우동</p>
+                            <p class="price">8,500원</p>
+                            <p class="menu_inner_text">
+                                말랑쫀득 밀떡과 100%멸치육수로 우려낸
+                                <br>매콤달콤한 소스의 떡볶이
+                            </p>
+                            <ul class="qick_btn">
+                                <li><a href="javascript:return false;">
+                                        <img src="../images/icon/icon_heart_small_2.png" alt="icon_heart_small_2">
+                                    </a></li>
+                                <li><a href="javascript:return false;">
+                                        <img src="../images/icon/icon_basket_2_small_2.png" alt="icon_basket_2_small_2">
+                                    </a></li>
+                                <li><a href="javascript:return false;">
+                                        <img src="../images/icon/icon_buy_2.png" alt="icon_buy_2">
+                                    </a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="menu_img part_rice">
+                            <img src="../images/sub2_shop/mushroom.png" alt="mushroom">
+                        </div>
+                        <div class="line"></div>
+                        <div class="menu_text">
+                            <p class="menu_title">베이컨 로제 파스타</p>
+                            <p class="price">7,300원</p>
+                            <p class="menu_inner_text">
+                                촉촉한 국내산 닭가슴살과 신선한
+                                <br>아보카도의 만남
+                            </p>
+                            <ul class="qick_btn">
+                                <li><a href="javascript:return false;">
+                                        <img src="../images/icon/icon_heart_small_2.png" alt="icon_heart_small_2">
+                                    </a></li>
+                                <li><a href="javascript:return false;">
+                                        <img src="../images/icon/icon_basket_2_small_2.png" alt="icon_basket_2_small_2">
+                                    </a></li>
+                                <li><a href="javascript:return false;">
+                                        <img src="../images/icon/icon_buy_2.png" alt="icon_buy_2">
+                                    </a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="menu_img part_rice">
+                            <img src="../images/sub2_shop/friedrice.png" alt="friedrice">
+                        </div>
+                        <div class="line"></div>
+                        <div class="menu_text">
+                            <p class="menu_title">해물 칼국수</p>
+                            <p class="price">10,900원</p>
+                            <p class="menu_inner_text">
+                                촉촉한 국내산 100% 닭다리살과 신선한
+                                <br>채소로 만든 춘천닭갈비!
+                            </p>
+                            <ul class="qick_btn">
+                                <li><a href="javascript:return false;">
+                                        <img src="../images/icon/icon_heart_small_2.png" alt="icon_heart_small_2">
+                                    </a></li>
+                                <li><a href="javascript:return false;">
+                                        <img src="../images/icon/icon_basket_2_small_2.png" alt="icon_basket_2_small_2">
+                                    </a></li>
+                                <li><a href="javascript:return false;">
+                                        <img src="../images/icon/icon_buy_2.png" alt="icon_buy_2">
+                                    </a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- footer -->
+        <div id="footer">
+            <div class="inner_footer">
+                <h1 class="footer_logo">
+                    <img src="../images/common/footer_logo.png" alt="footer_logo">
+                </h1>
+                <div class="footer_info">
+                    <ul class="footer_info_1">
+                        <li><a href="javascript:return false;">개인정보처리방침</a></li>
+                        <li><a href="javascript:return false;">이메일무단수집거부</a></li>
+                        <li><a href="javascript:return false;">이용약관</a></li>
+                        <li><a href="javascript:return false;">고객센터</a></li>
+                    </ul>
+                    <ul class="footer_info_2">
+                        <li>대표: 박수현</li>
+                        <li>주소: 부산광역시 기장군 일광로</li>
+                        <li>사업자등록번호: 000-00-00000
+                            <a href="javascript:return false;">[사업자번호조회]</a>
+                        </li>
+                    </ul>
+                    <ul class="footer_info_3">
+                        <li>TEL: 010.1234.5678</li>
+                        <li>FAX: 010.1234.5678</li>
+                    </ul>
+                    <p>Copyright © IT'S YUMMY All Right Reserved.</p>
+                </div>
+
+                <div class="link_footer">
+                    <ul class="link_footer_1">
+                        <li><a href="javascript:return false;"><img src="../images/icon/apple_appstore.png"
+                                    alt="apple_appstore"></a></li>
+                        <li><a href="javascript:return false;"><img src="../images/icon/google_play.png"
+                                    alt="google_play"></a></li>
+                    </ul>
+                    <ul class="link_footer_2">
+                        <li><a href="javascript:return false;"><img src="../images/icon/icon_insta.png"
+                                    alt="icon_insta"></a></li>
+                        <li><a href="javascript:return false;"><img src="../images/icon/icon_youtube.png"
+                                    alt="icon_youtube"></a></li>
+                        <li><a href="javascript:return false;"><img src="../images/icon/icon_kakao.png"
+                                    alt="icon_kakao"></a></li>
+                        <li><a href="javascript:return false;"><img src="../images/icon/icon_twitter.png"
+                                    alt="icon_twitter"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div><!-- end -->
+
+
+    <!-- js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="../js/unpkg.com_aos@2.3.1_dist_aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <!-- js -->
+    <script src="./js/script.js"></script>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script>
+         $('.mealkit').click(function () {
+            var menuHeight = document.querySelector(".section_1").offsetHeight;
+
+            var location = document.querySelector(".section_1").offsetTop;
+
+            window.scrollTo({ top: location - menuHeight, behavior: 'smooth' });
+        });
+         $('.noodle').click(function () {
+            var menuHeight = document.querySelector(".section_2").offsetHeight;
+
+            var location = document.querySelector(".section_2").offsetTop;
+
+            window.scrollTo({ top: location - menuHeight, behavior: 'smooth' });
+        });
+         $('.rice').click(function () {
+            var menuHeight = document.querySelector(".section_3").offsetHeight;
+
+            var location = document.querySelector(".section_3").offsetTop;
+
+            window.scrollTo({ top: location - menuHeight, behavior: 'smooth' });
+        });
+
+    </script>
+</body>
+
+</html>
