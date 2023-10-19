@@ -449,6 +449,7 @@ h2 {
 .character_design{
     width: 1440px;
     margin: 0 auto;
+    overflow: hidden;
 }
 .character_design .lnb{
     width: 481px;
