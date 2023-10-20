@@ -382,13 +382,13 @@ h2 {
     left: 27px;
 }
 .bg_img02{
-    top: 653px;
-    right: -122px;
+    top: 752px;
+    right: 48px;
     z-index: 9;
 }
 .bg_img03{
-    bottom: 178px;
-    right: 227px;
+    bottom: 206px;
+    right: 475px;
 }
 .list_title span{
     text-emphasis-style: dot;
