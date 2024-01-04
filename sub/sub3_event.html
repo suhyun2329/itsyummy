@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1500px">
+    <title>잇츠야미</title>
+    <!-- favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/common/favicon.png">
+    <!-- webfont -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Grandiflora+One&family=Jua&display=swap" rel="stylesheet">
+    <!-- <script type="module" src="https://ryj9d86xjh.execute-api.ap-northeast-2.amazonaws.com/v1/api/fontstream/djs/?sid=gAAAAABk-YjYDx2WP-goXeIDALa0HrHHBgdYqYcDzdhVdIdArwbexKHcH3qtPWT096ThEEL2NLNDcEWR4ke0nYOi1Ua7wRnW8yC3GPqm-XnMQ0XbveSgrnXgnb3GOO2fZzeX6GktzTD80_FIh_eYesd_NjBAGyA59bgs35j4um6QW-EQ0p2u96OkHo6nwmrkR1aiDXzz3xZNS5ZZTXR98LJE4LF17SOJpFTh0MkUH2zZTR6k_QWVHkJ2_jPWIjR8ZDn37TwAhr2A" charset="utf-8"></script> -->
+    <style>
+        @font-face {
+            font-family: 'HakgyoansimWoojuR';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/HakgyoansimWoojuR.woff2') format('woff2');
+            font-weight: normal;
+            font-style: normal;
+        }
+    </style>
+    <!-- css -->
+    <link rel="stylesheet" href="../css/sub3_event_style.css">
+    <!-- common -->
+    <link rel="stylesheet" href="../css/common/swiper-bundle.min.css">
+    <link rel="stylesheet" href="../css/common/unpkg.com_aos@2.3.1_dist_aos.css">
+    <link rel="stylesheet" href="../css/common/animation.css">
+</head>
+
+<body>
+    <div id="wrap">
+        <!-- header -->
+        <div id="header">
+            <div class="inner_header">
+                <h1 class="logo">
+                    <a href="../index.html"><img src="../images/common/logo.png" alt="logo"></a>
+                </h1>
+                <ul class="gnb">
+                    <li><a href="./sub1_brand.html">BRAND</a></li>
+                    <li><a href="./sub2_shop.html">SHOP</a></li>
+                    <li><a href="./sub3_event.html">EVENT</a></li>
+                    <li><a href="./sub4_notice.html">NOTICE</a></li>
+                </ul>
+                <ul class="link">
+                    <li><a href="javascript:return false;">로그인</a></li>
+                    <li><a href="javascript:return false;">장바구니</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- top -->
+        <div id="top">
+            <div id="main_banner">
+                <div class="inner_main_banner">
+                    <div class="goods_01">
+                        <img src="../images/sub3_event/goods_01.png" alt="goods_01">
+                    </div>
+                    <div class="goods_02">
+                        <img src="../images/sub3_event/goods_02.png" alt="goods_02">
+                    </div>
+                </div>
+            </div>
+            <div id="bg_circle"></div>
+
+        </div> <!-- top_E-->
+
+        <!-- event_S -->
+        <div id="event">
+            <div class="inner_event">
+                <h2 class="list_title">Event</h2>
+                <p class="info">다양한 이벤트를 확인해보세요!</p>
+                <div id="search">
+                    <div id="select_wrap">
+                        <div id="select_btn">
+                            <p id="select">전체</p>
+                            <span class="plus"><img src="../images/icon/icon_key.png" alt="plus"></span>
+                        </div>
+                        <div class="option_wrap" id="option">
+                            <p onclick="option1()">진행중</p>
+                            <p onclick="option2()">종료</p>
+                        </div>
+                    </div>
+
+                    <div class="search_bar">
+                        <input type="text" placeholder="검색어를 입력하세요">
+                        <!-- <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/icon/search.png"> -->
+                        <button type="submit">검색</button>
+                    </div>
+                </div>
+
+                <ul class="event_list">
+                    <li><a href="javascript:return false;">
+                        <img src="../images/sub3_event/event_01.png" alt="event_01">
+                    </a></li>
+                    <li><a href="javascript:return false;">
+                        <img src="../images/sub3_event/event_02.png" alt="event_02">
+                    </a></li>
+                    <li><a href="javascript:return false;">
+                        <img src="../images/sub3_event/event_03.png" alt="event_03">
+                    </a></li>
+                    <li><a href="javascript:return false;">
+                        <img src="../images/sub3_event/event_04.png" alt="event_04">
+                    </a></li>
+                </ul>
+                <ul class="page">
+                    <li> <a href="javascript:return false;">
+                            <img src="../images/icon/icon_left_ye.png" alt="icon_left_ye">
+                        </a></li>
+                    <li>
+                        <a href="javascript:return false;">1</a>
+                    </li>
+                    <li>
+                        <a href="javascript:return false;">2</a>
+                    </li>
+                    <li><a href="javascript:return false;">
+                            <img src="../images/icon/icon_right_ye.png" alt="icon_right_ye">
+                        </a></li>
+                    </ul>
+            </div>
+        </div><!-- event_E -->
+
+        <!-- specialevent -->
+        <div class="spe_top_box">
+            <div id="specialevent">
+                <h2 class="list_title">Special Event</h2>
+                <div class="inner_specialevent">
+                    <div class="text_box">
+                        <p><span style="font-size: 28px;">잇츠야미 어플 설치하고</span></p>
+                        <h2>식단을 추천받아 보세요!</h2>
+                        <div class="bg_box"></div>
+                        <p><span style="font-size: 20px;">지금 설치하기</span></p>
+                        <ul class="store_link">
+                            <li>
+                                <a href="javascript:return false;">
+                                    <img src="../images/sub3_event/apple_store.png" alt="apple_store">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:return false;">
+                                    <img src="../images/sub3_event/google_store.png" alt="google_store">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="top_img default aos-init" data-aos="zoom-in" data-aos-duration="1000">
+                        <div class="top_img balanced animate__animated animate__bounce">
+                            <img src="../images/sub3_event/event_mushroom.png" alt="event_mushroom">
+                        </div>
+                    </div>
+                    <div class="default aos-init" data-aos="zoom-in" data-aos-duration="1000">
+                        <div class="bubble_01">
+                            <img src="../images/sub3_event/bubble_01.png" alt="bubble_01">
+                        </div>
+                        <div class="bubble_02">
+                            <img src="../images/sub3_event/bubble_02.png" alt="bubble_02">
+                        </div>
+                        <div class="app">
+                            <img src="../images/sub3_event/app.png" alt="app">
+                        </div>
+                    </div>
+                    <div class="glitter">
+                        <div class="glitter_01">
+                            <img src="../images/sub3_event/glitter_yellow_1.png" alt="glitter_yellow_1">
+                        </div>
+                        <div class="glitter_02">
+                            <img src="../images/sub3_event/glitter_yellow_2.png" alt="glitter_yellow_2">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="bg_small"></div>
+        <!-- Benefits_S -->
+        <div id="Benefits">
+            <div class="inner_Benefits">
+                <h2 class="list_title">회원 <span>등급별</span> 혜택</h2>
+                <p class="info">회원가입하고 등급별 혜택을 누려보세요!</p>
+                <ul class="Benefits_list">
+                    <li>
+                        <img src="../images/sub3_event/welcome.png" alt="welcome">
+                        <p class="grade">WELCOME</p>
+                        <p>가입시 최초등급</p>
+                        <p class="discount">회원가입시 5,000원 할인</p>
+                    </li>
+                    <li>
+                        <img src="../images/sub3_event/silver.png" alt="silver">
+                        <p class="grade">SILVER</p>
+                        <p>30,000원 이상 구매시</p>
+                        <p class="discount">구매금액의 3%할인</p>
+                    </li>
+                    <li>
+                        <img src="../images/sub3_event/gold.png" alt="gold">
+                        <p class="grade">GOLD</p>
+                        <p>50,000원 이상 구매시</p>
+                        <p class="discount">구매금액의 5%할인</p>
+                    </li>
+                    <li>
+                        <img src="../images/sub3_event/vip.png" alt="vip">
+                        <p class="grade">VIP</p>
+                        <p>100,000원 이상 구매시</p>
+                        <p class="discount">구매금액의 7%할인</p>
+                    </li>
+                </ul>
+                <div class="guide">
+                    <h3>※ 멤버십 승급 및 혜택 관련 안내 사항</h3>
+                    <p>
+                        1. 등급은 매월 첫 영업일에 변경되며, 한 달 (30일) 동안 실제 결제된 금액 기준으로 변경됩니다.
+                        <br>2. 기간 중 반품 비율이 과도하게 높을 경우 등급이 조정될 수 있습니다.
+                        <br>3. 등급 혜택은 당사 사정에 따라 변경되거나 중지될 수 있습니다.
+                        <br>4. 부당한 방법으로 등급을 올린 경우 사후 조정될 수 있습니다.
+                        <br>5. 할인은 결제 즉시 적용됩니다.
+                        <br>6. 일부 할인품목은 중복할인에서 제외될 수 있습니다.
+                        <br>7. 등급별 등업축하쿠폰은 해당 등급 달성 최초 1회에 한하여 지급됩니다.
+                    </p>
+                </div>
+                <div class="benefits_bg bg_img01">
+                    <img src="../images/sub3_event/benefits_chicken.png" alt="benefits_chicken">
+                </div>
+                <div class="benefits_bg bg_img02">
+                    <img src="../images/sub3_event/benefits_octopus.png" alt="benefits_octopus">
+                </div>
+                <div class="benefits_bg bg_img03">
+                    <img src="../images/sub3_event/benefits_egg.png" alt="benefits_egg">
+                </div>
+            </div>
+        </div>
+
+        <!-- footer -->
+        <div id="footer">
+            <div class="inner_footer">
+                <h1 class="footer_logo">
+                    <img src="../images/common/footer_logo.png" alt="footer_logo">
+                </h1>
+                <div class="footer_info">
+                    <ul class="footer_info_1">
+                        <li><a href="javascript:return false;">개인정보처리방침</a></li>
+                        <li><a href="javascript:return false;">이메일무단수집거부</a></li>
+                        <li><a href="javascript:return false;">이용약관</a></li>
+                        <li><a href="javascript:return false;">고객센터</a></li>
+                    </ul>
+                    <ul class="footer_info_2">
+                        <li>대표: 박수현</li>
+                        <li>주소: 부산광역시 기장군 일광로</li>
+                        <li>사업자등록번호: 000-00-00000
+                            <a href="javascript:return false;">[사업자번호조회]</a>
+                        </li>
+                    </ul>
+                    <ul class="footer_info_3">
+                        <li>TEL: 010.1234.5678</li>
+                        <li>FAX: 010.1234.5678</li>
+                    </ul>
+                    <p>Copyright © IT'S YUMMY All Right Reserved.</p>
+                </div>
+
+                <div class="link_footer">
+                    <ul class="link_footer_1">
+                        <li><a href="javascript:return false;"><img src="../images/icon/apple_appstore.png" alt="apple_appstore"></a></li>
+                        <li><a href="javascript:return false;"><img src="../images/icon/google_play.png" alt="google_play"></a></li>
+                    </ul>
+                    <ul class="link_footer_2">
+                        <li><a href="javascript:return false;"><img src="../images/icon/icon_insta.png" alt="icon_insta"></a></li>
+                        <li><a href="javascript:return false;"><img src="../images/icon/icon_youtube.png" alt="icon_youtube"></a></li>
+                        <li><a href="javascript:return false;"><img src="../images/icon/icon_kakao.png" alt="icon_kakao"></a></li>
+                        <li><a href="javascript:return false;"><img src="../images/icon/icon_twitter.png" alt="icon_twitter"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div><!-- end -->
+
+
+    <!-- js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="../js/unpkg.com_aos@2.3.1_dist_aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <!-- js -->
+    <script src="./js/script.js"></script>
+    
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script>
+        $('.option_wrap').hide();
+        $('#select_btn').click(function(){
+            $('.option_wrap').toggle();
+        });
+        $(function () {
+            $("#select_btn").click(function () {
+                $(this).children().children("img").toggleClass("turn");
+             });
+        });
+        function option1(){
+                document.getElementById('select').innerHTML = '진행중'
+                $('.option_wrap').hide()
+            };
+        function option2(){
+                document.getElementById('select').innerHTML = '종료'
+                $('.option_wrap').hide()
+            };
+        // function option3(){
+        //         document.getElementById('select').innerHTML = '선택3'
+        //         $('.option_wrap').hide()
+        //     };
+        // function option4(){
+        //         document.getElementById('select').innerHTML = '선택4'
+        //         $('.option_wrap').hide()
+        //     };
+        $(function () {
+            $("#option p").click(function () {
+                $(".plus img").toggleClass("turn");
+             });
+        });    
+    </script>
+</body>
+
+</html>
